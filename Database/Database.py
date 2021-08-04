@@ -1,6 +1,9 @@
 import mysql.connector
 import configparser
 
+#-------#
+#File can be used to connect to any MySQL database by editing config
+
 class DatabaseManager:
 	def __init__(self):
 		self.configparser = configparser.ConfigParser()
